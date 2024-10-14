@@ -1,0 +1,120 @@
+@media (min-width: 1700px) {
+  body {
+    zoom: 110%;
+  }
+}
+/* 火狐不兼容，谷歌 IE可以用 */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1250px;
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 16px !important;
+}
+* {
+  box-sizing: border-box;
+  /*并排放置两个带边框的框*/
+}
+div {
+  display: block;
+}
+
+/* 头部 */
+.title {
+  height: 140px;
+  margin: 0 auto;
+  width: 1100px;
+  display: -webkit-box;
+  padding: 10px 0;
+}
+
+.logo {
+  color: #363636;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 32px;
+  position: relative;
+}
+
+/* 已改 */
+.short {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  color: #454545;
+  width: 930px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 100px 20px 160px;
+}
+
+.head {
+  margin: 0 auto;
+  width: 100%;
+  height: 46px;
+  background-color: #abacaf;
+  /* background-color: #AAAAAA; */
+}
+
+.menu {
+  margin: 0 auto;
+  width: 1100px;
+  font-family: "等线";
+}
+
+.list {
+  /* 菜单文字 */
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+.el-menu--horizontal > .el-menu-item,
+el-menu--horizontal > .el-submenu .el-submenu__title {
+  height: 50px;
+  line-height: 50px;
+}
+.el-menu--horizontal > .el-submenu .el-submenu__title {
+  height: 50px;
+  line-height: 50px;
+}
+.tab {
+  color: #454545;
+  font-size: 14px;
+  font-style: italic;
+  font-family: "等线";
+  margin: 0;
+}
+
+/* 底部 */
+.footer {
+  margin: 0 auto;
+  height: 310px;
+  width: 100%;
+  display: -webkit-box;
+  background-color: #c0c4cc5e;
+}
+.fo {
+  margin: 0 auto;
+  width: 1100px;
+  padding: 15px 0;
+  color: #767676;
+}
+.fo-menu {
+  margin: 0 15px;
+  float: left;
+}
+.fo-menu > p {
+  font-size: 14px;
+}
+.ti,
+.fo-menu > p > a {
+  text-decoration: none;
+  outline: none;
+  color: #767676;
+}
+.gi:hover {
+  color: #524f4f;
+  transition-duration: 0.3s;
+  text-shadow: 2px 2px 5px rgb(5, 5, 247);
+}
