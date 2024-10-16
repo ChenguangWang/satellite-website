@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="main">
-    <img src="./../../assets/images/1.png" class="image" />
+    <img src="./../../assets/images/1.jpg" class="image" />
     <div
       style="
         text-align: left;
@@ -41,7 +41,11 @@
   <div class="btn">
     征集成员：九天星联面向企业，高校和科研院所等征集首批成员，用星际灯塔指引文明探索之路！
     <router-link to="/join-us" class="list">
-          <a-button type="primary" danger style="height: 30px; padding: 4px 10px"><span><span style="font-size: 13px;font-weight: 500">了解</span></span></a-button>
+      <a-button type="primary" danger style="height: 30px; padding: 4px 10px"
+        ><span
+          ><span style="font-size: 13px; font-weight: 500">了解</span></span
+        ></a-button
+      >
     </router-link>
   </div>
 </template>
