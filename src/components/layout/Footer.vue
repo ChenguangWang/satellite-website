@@ -31,6 +31,14 @@
         <p><a>联邦学习与AI加速</a></p>
         <p><a>云原生卫星边缘计算</a></p>
       </div> -->
+      <div style="float: left; font-size: 16px; margin-left: 16px">
+        <h4>ICP备案</h4>
+        <p>
+          <a class="ti" href="https://beian.miit.gov.cn" target="_blank">
+            京ICP备2024092093号-1
+          </a>
+        </p>
+      </div>
       <div style="float: left; margin-left: 40px">
         <h4>相关单位</h4>
         <div style="font-size: 15px">
@@ -41,9 +49,9 @@
       <div style="float: left; font-size: 16px; margin-left: 16px">
         <h4>版权所有</h4>
         <p>
-          <router-link to="/join-us" class="ti"
-            >© 北京九天星联科技有限公司</router-link
-          >
+          <router-link to="/join-us" class="ti">
+            © 北京九天星联科技有限公司
+          </router-link>
         </p>
       </div>
     </div>
