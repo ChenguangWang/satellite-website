@@ -39,6 +39,18 @@
           </a>
         </p>
       </div>
+      <div style="float: left; font-size: 16px; margin-left: 16px">
+        <h4>京公网安备</h4>
+        <p>
+          <a
+            class="ti"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502056073"
+            target="_blank"
+          >
+            11010502056073号
+          </a>
+        </p>
+      </div>
       <div style="float: left; margin-left: 40px">
         <h4>相关单位</h4>
         <div style="font-size: 15px">
